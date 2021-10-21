@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+
+    background-color: #f7c9d9;
+}
+
+header #pesquisa, header #filtro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+    margin: 5px 20px;
+}
+
+header #pesquisa {
+    width: 70%;
+    font-size: 18px;
+}
+
+header #pesquisa input {
+    width: 60%;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+
+    padding: 0 10px;
+    font-size: 15px;
+
+    background-image: url(./assets/lupa.svg);
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: center;
+    outline: none;
+
+}
+
+header #pesquisa p {
+    width: 20%;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+header #filtro {
+    display: flex;
+    border: solid 2px #000;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+
+    transition: 0.5s;
+}
+
+header #filtro:hover {
+    cursor: pointer;
+    background-color: #f3d6e0;
+}
+
+header #filtro img {
+    margin: 0 10px 0 0;
+    width: 27px;
+}
+
+header #fixo {
+    width: 50px;
+    height: 150px;
+    background-color: #410419;
+
+    margin-left: 50px;
+}
+
+header #fixo #carrinho {
+    justify-content: center;
+    margin-top: 19px;
+    display: flex;
+}
+
+header #fixo #perfil {
+    justify-content: center;
+    margin-top: 19px;
+    display: flex;
+}
+
+footer {
+    padding: 20px 0;
+
+    background-color: #f7c9d9;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer #logo_footer img {
+    width: 100px;
+
+    cursor: pointer;
+}
+
+footer #logo_footer, footer #links{
+    width: 25%;
+    text-align: center;
+}
+
+footer #logo_footer img {
+    width: 100px;
+}
+
+footer #pedido {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #000000;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+}
+
+footer #pedido h3, footer #pedido p {
+    padding: 2px 0;
+}
+
+footer #pedido img {
+    width: 90px;
+}
+
+footer #pedido button {
+    border: 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    margin: 5px 0 0 5px;
+}
+
+footer #pedido #pedir, #cadastrar {
+    background-color: #410419;
+
+    transition: 0.5s;
+}
+
+footer #pedido #pedir #cadastrar:hover {
+    background-color: #7e0731;
+}
+
+footer #pedido input {
+    width: 350px;
+    height: 40px;
+
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+
+    font-size: 18px;
+    padding-left: 10px;
+    color: #7e0731;
+
+    background-image: url(./assets/email.svg);
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: center;
+    background-size: 25px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer #links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #links img {
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+}

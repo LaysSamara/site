@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+main #box {
+    display: flex;
+    justify-content: center;
+}
+
+main #box #lateral {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main #box #lateral #circulo{
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 0 100px;
+
+    background-color: #C4C4C4;
+}
+
+main #box #lateral #icones {
+    width: 200px;
+    height: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    border: solid 2px #410419;
+    border-radius: 5px;
+}
+
+main #box #meio {
+    display: flex;
+    width: 600px;
+    height: 615px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    border: solid 2px #410419;
+    border-radius: 5px;
+}
